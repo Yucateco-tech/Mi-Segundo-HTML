@@ -1,0 +1,107 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #023047;
+   
+}
+
+ /*Estilo para todos los parrafos (etiqueta p)*/
+p {
+    font-size: 18px;
+}
+/*Estilo para la clase "mi-clase" esto va
+dentro de la etiqueta en el archivo class="mi-clase"
+*/
+.mi-clase {
+   text-align: center;
+   font-style: oblique;
+   font-size: larger;
+   display: inline-block;
+}
+/*Estilo para el id "mi-id" esto va
+dentro de la etiqueta en el atributo id="mi-id"
+*/
+#mi-id {
+    font-size: larger;
+}
+
+.start {
+    color: #efefef;
+}
+
+/*Estilos para los enlaces dentro de la clase "mi-clase" combinacion*/
+.mi-clase a{
+    color: #fb8500;
+}
+
+.mi-foto {
+    width: 150px;
+    
+}
+
+/*Ejemplos de Display*/
+
+#ejemplos-de-display {
+    margin-top: 40px;
+    padding: 20px;
+    border-top: 2px solid #ccc;
+}
+
+/*Estilo base para todas las cajas demo*/
+.caja {
+    background-color: f4f4f4;
+    border: 1px solid #333;
+    padding: 8px;
+    margin: 6px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* BLOQUES: uno denajo del otro, ocupan todo el ancho*/
+.caja-block {
+    display: block;
+    width: 100%;
+}
+
+/*INLINE: se Comportan como texto, no respetan width ni height*/
+.caja-inline {
+    display: inline;
+/* width & height no tienen efecto en inline, eso lo hace demostrativo*/
+    margin: 0 4px;
+    padding: 2px 6px;
+    background-color: #ffeaa7;
+}
+
+/*CONTENEDOR para ver mejor los inline-block*/
+.contenedor-inline-block {
+    border: 1px dashed #aaa;
+    padding: 10px;
+}
+
+/*INLINE-BLOCK: se alinean en fila, pero si respetan width y height*/
+.caja-inline-block {
+    display: inline-block;
+    width: 120px;
+    height: 60px;
+    margin: 4px;
+    line-height: 60px; /*centra el texto verticalmente*/
+    background-color: #a3d5ff;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    font-size: larger;
+    background-color: #c1121f;
+}
+
+button:hover {
+    background-color: #831010;
+    color: white;
+}
+
+div {
+    background-color: rgba(166, 152, 27, 1);
+}
