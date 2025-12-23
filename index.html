@@ -3,9 +3,21 @@
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https//fonts.googleapis.com">
+    <link rel="preconnect" href="https//fonts.gstatic.com" crossorigin>
+    <link href="https//fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap"  rel="stylesheet">
+
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="icon" type="image/png" href="./src/icons/ring.png">
     <title>Mi Blog</title>
+
+    <style>
+        li  {
+            color: blue !important;
+            font-weight: bold;
+        }
+    </style>
+
 </head>
 <body>
     <header class="mi-clase">
@@ -39,6 +51,14 @@
             <li>Instagram: <a href="#">Instagram</a></li>
             <li>Facebook: <a href="#">Facebook</a></li>
         </ol>
+    </div>
+
+    <div>
+        <ul>
+            <li style="color:black;">Ejemplos de display</li>
+            <li><a href="#box-model-demo">Demo Box Model</a></li>
+            <li><a href="#box-sizing-demo">Demo Box Sizing</a></li>
+        </ul>
     </div>
 
     <div id="contactame">
@@ -82,6 +102,35 @@
             <div class="caja caja-inline-block">INLINE-Block 3</div>
         </div>
     </section>
+
+    <section id="box-model-demo">
+        <h2>Demo: Box Model</h2>
+            <div class="box-demo">
+                Soy una caja de ejemplo
+            </div>
+    </section>
+
+    <section id="box-sizing-demo">
+        <h2>Demo: Box sizing</h2>
+        <div class="box-cb">
+            content-box por defecto
+        </div>
+        <div class="box-bb">
+            border-box
+        </div>
+    </section>
+
+    <div class="contenedor-inline-block">
+        <div class="caja caja-inline-block">INLINE-Block 1</div>
+        <div class="caja caja-inline-block">INLINE-Block 2</div>
+        <div class="caja caja-inline-block">INLINE-Block 3</div>
+    </div>
+
+    <div class="contenedor-inline-block">
+        <div class="caja caja-inline-block">INLINE-Block 1</div>
+        <div class="caja caja-inline-block">INLINE-Block 2</div>
+        <div class="caja caja-inline-block">INLINE-Block 3</div>
+    </div>
 
     <footer>
         <p>&copy; 2025 Mi Blog. Todos los derechos reservados.</p>

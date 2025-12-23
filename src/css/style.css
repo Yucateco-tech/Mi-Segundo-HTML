@@ -1,6 +1,13 @@
-*{
-    font-family: 'Times New Roman', Times, serif;
+* {
+    font-family: "times new roman", serif;
 }
+
+.monsieur-la-doulaise-regular {
+    font-family: "Monsieur La Doulaise", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
 
 body {
     background-color: #023047;
@@ -15,7 +22,6 @@ p {
 dentro de la etiqueta en el archivo class="mi-clase"
 */
 .mi-clase {
-   text-align: center;
    font-style: oblique;
    font-size: larger;
    display: inline-block;
@@ -51,7 +57,7 @@ dentro de la etiqueta en el atributo id="mi-id"
 
 /*Estilo base para todas las cajas demo*/
 .caja {
-    background-color: f4f4f4;
+    background-color: #ad1515;
     border: 1px solid #333;
     padding: 8px;
     margin: 6px 0;
@@ -63,6 +69,9 @@ dentro de la etiqueta en el atributo id="mi-id"
 .caja-block {
     display: block;
     width: 100%;
+    position: sticky;
+    top: 0px;
+    left: 20px;
 }
 
 /*INLINE: se Comportan como texto, no respetan width ni height*/
@@ -102,6 +111,64 @@ button:hover {
     color: white;
 }
 
-div {
-    background-color: rgba(166, 152, 27, 1);
+
+/*Ejemplo de Box Model*/
+#box-model-demo {
+    margin-top: 40px;
+    padding: 20px;
+    /*border-top: 2px solid #ccc;*/
+} 
+
+.box-demo {
+    width: 150px;
+    height: 100px;
+    padding: 15px;
+    border: 5px solid #fb8500;
+    margin: 20px;
+    background-color: #ffb703;
+    color: #831010;   
+}
+
+#box-sizing-demo {
+    margin-top: 40px;
+}
+
+.box-cb,
+.box-bb {
+    padding: 20px;
+    margin-bottom: 16px;
+    border: 10px solid #219ebc;
+    background-color: #8ecae6;
+    color: #000;
+}
+
+.box-cb {
+    width: 200px;
+    box-sizing: content-box; /* valor por defecto */
+}
+
+.box-bb {
+    width: 200px;
+    box-sizing: border-box;
+    background-color: #2ca450;
+}
+
+h1 {
+    color: #ffb703;
+}
+
+.mi-clase h1 {
+    color: #8ecae6;
+}
+
+li {
+    color: #2ca450 !important;
+}
+
+.mi-clase li {
+    color: #c1121f;
+}
+
+#mi-id {
+    color: #ffb703;
 }
