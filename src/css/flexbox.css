@@ -53,6 +53,29 @@ section {
     display: flex;
     flex-direction: row;
 
-    justify-content: flex-start; /*Alineacion horizontal  (row en flex-direction)*/
+    justify-content: space-between; /*Alineacion horizontal  (row en flex-direction)*/
     align-items: flex-start; /*Alineacion vertical  (column en flex-direction)*/
+}
+
+/*Estilos de la clase 5*/
+
+.contenedor-centro {
+    border: 1px dashed #4b5563;
+    background: #3d3e42;
+    height: 200px;
+    margin-top: .5rem;
+
+    display: flex;
+    justify-content: center; /*centrado horizontal*/
+    align-items: center; /*centrado vertical*/
+}
+
+.btn-demo {
+   height: 35px;
+}
+
+.caja-small {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
 }
